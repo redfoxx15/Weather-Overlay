@@ -117,7 +117,7 @@ $(document).ready(function(){
 	
 	function CurrentData() {
 		$.ajax({
-			url: "https://api.openweathermap.org/data/2.5/onecall",
+			url: "https://api.openweathermap.org/data/3.0/onecall",
 			data: {
 				"lat": placeCoordinates.lat,
 				"lon": placeCoordinates.lon,
